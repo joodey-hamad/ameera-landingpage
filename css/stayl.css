@@ -1,0 +1,202 @@
+:root {
+    --one-color: #f9025d;
+    --sactino-color: #db6094;
+    --section-padding: 100px;
+}
+
+body {
+    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Start Component */
+
+.header-main {
+    text-align: center;
+}
+
+.header-main h3 {
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    color: var(--one-color);
+}
+
+
+/*
+.header-main h3::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: -35px;
+    width: 120px;
+    height: 2px;
+    background-color: black
+}
+
+.header-main h3::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    bottom: -43px;
+    background-color: white;
+}
+*/
+
+.header-main p {
+    color: #777;
+    line-height: 2;
+}
+
+
+/* End Component */
+
+
+/* Start Navbar */
+
+.navbar {
+    background-color: white;
+}
+
+.navbar .navbar-brand {
+    color: #464545d1;
+}
+
+.navbar .navbar-brand span {
+    color: var(--sactino-color);
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+    color: #464545d1;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link.active {
+    color: var(--sactino-color);
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+    color: var(--sactino-color);
+}
+
+.navbar .navbar-toggler {
+    color: black;
+    border-color: black;
+    box-shadow: none;
+}
+
+
+/* End Navbar */
+
+
+/* Stert Logo */
+
+.logo {
+    background-image: url(../image/ameere.jpg);
+    background-size: cover;
+    height: 75vh;
+}
+
+.logo .intro-text {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+}
+
+
+/* End Logo */
+
+
+/* Start About  */
+
+
+/* End About  */
+
+
+/* Start Services */
+
+.services {
+    background-color: rgb(241 241 241 / 23%);
+    position: relative;
+}
+
+.services .card {
+    border-radius: 0;
+    position: relative;
+}
+
+
+/*
+.services .card img::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 5px;
+    background-color: var(--one-color);
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    transition: 1s;
+    transform: translateY(12deg);
+}
+*/
+
+.services .card:hover {
+    transition: 1s;
+    transform: translateY(-15px);
+}
+
+.services .card:hover:before {
+    content: "";
+    width: 100%;
+}
+
+@keyframes spin {
+    to {
+        transform: translateY(30deg);
+    }
+}
+
+.services .card .card-body h3 {
+    color: var(--one-color);
+}
+
+.services .card .card-body .btn {
+    background-color: var(--one-color);
+}
+
+
+/* Start Services */
+
+
+/* Start Contact  */
+
+.contact {
+    background-color: rgb(241 241 241 / 23%);
+}
+
+.contact .dow a {
+    background-color: var(--one-color);
+}
+
+.footer {
+    background-color: rgba(20, 19, 19, 0.568);
+}
+
+.footer ul li svg {
+    transition: 1s;
+}
+
+.footer ul li svg:hover {
+    color: white;
+}
+
+
+/* End Contact  */
