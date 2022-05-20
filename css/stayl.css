@@ -130,26 +130,10 @@ body {
 .services .card {
     border-radius: 0;
     position: relative;
+    transition: 0.5s;
 }
-
-
-/*
-.services .card img::before {
-    content: "";
-    position: absolute;
-    width: 0px;
-    height: 5px;
-    background-color: var(--one-color);
-    left: 50%;
-    top: 0;
-    transform: translateX(-50%);
-    transition: 1s;
-    transform: translateY(12deg);
-}
-*/
 
 .services .card:hover {
-    transition: 1s;
     transform: translateY(-15px);
 }
 
