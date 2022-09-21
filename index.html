@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AmeereApp</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/stayl.css">
@@ -27,19 +27,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0  ">
                     <li class="nav-item ps-3 pe-3">
-                        <a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active fs-5" aria-current="page" href="#myslid">Home</a>
                     </li>
                     <li class="nav-item ps-3 pe-3 fs-5">
-                        <a class="nav-link " href="#">About</a>
+                        <a class="nav-link " href="#about">About</a>
                     </li>
                     <li class="nav-item ps-3 pe-3 fs-5">
-                        <a class="nav-link " href="#">Services</a>
+                        <a class="nav-link " href="#services">Services</a>
                     </li>
                     <li class="nav-item ps-3 pe-3 fs-5">
-                        <a class="nav-link " href="#">Product</a>
+                        <a class="nav-link " href="#product">Product</a>
                     </li>
                     <li class="nav-item ps-3 pe-3 fs-5">
-                        <a class="nav-link " href="#">Contact</a>
+                        <a class="nav-link " href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -74,16 +74,8 @@
         </button>
     </div>
 
-
-    <!-- Start Logo
-    <div class="logo">
-        <div class="intro-text  ">
-
-        </div>
-    </div>
-    <!-- End Logo-->
     <!-- Start About -->
-    <div class="about py-5 text-center text-sm-start">
+    <div class="about py-5 text-center text-sm-start" id="about">
         <div class="container">
             <div class="row  justify-content-center align-items-center">
                 <div class="col-md-6 col-lg-7">
@@ -102,11 +94,11 @@
 
 
     <!-- Start Services -->
-    <div class="services pt-3 pb-4 text-center">
+    <div class="services pt-3 pb-4 text-center" id="services">
         <div class="container">
             <div class="header-main">
                 <h3>Services</h3>
-                <p>Lorem ipsum dolor sit amet consectetur labore iste explicabo accusantium sapiente. Tenetur, ea cumque?</p>
+                <p class=" mx-auto">Lorem ipsum dolor sit amet consectetur labore iste explicabo accusantium sapiente. Tenetur, ea cumque?</p>
             </div>
             <div class="row ">
                 <div class="col-md-6 col-lg-4">
@@ -175,12 +167,12 @@
 
     <!-- End Services -->
     <!-- Start Product -->
-    <div class="product py-5 text-center ">
+    <div class="product py-5 text-center " id="product">
         <div class="container">
             <div class="header-main  ">
                 <h3>Product</h3>
-                <span class="text-center m-auto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vero tempore, labore iste explicabo ab ea recusandae laboriosam vel rerum dolore nostrum consectetur esse voluptates, accusantium sapiente. Tenetur, ea cumque?
-                </span>
+                <p class="text-center mx-auto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vero tempore, labore iste explicabo ab ea recusandae laboriosam vel rerum dolore nostrum consectetur esse voluptates, accusantium sapiente. Tenetur, ea cumque?
+                </p>
             </div>
             <div class="row pt-5">
                 <div class="col-md-6 col-lg-3 mt-2">
@@ -207,23 +199,28 @@
 
 
     <!-- Start Contact -->
-    <div class="contact text-sm-center py-5 ">
+    <div class="contact text-sm-center py-5 " id="contact">
         <div class="container">
-            <div class="row justify-content-center align-items-center ">
-                <div class="col-md-auto ">
-                    <div class="box d-flex ">
+            <div class="row  ">
+                <div class="col-lg-4">
+                    <div class="box  ">
                         <div>
                             <i class="fa-solid fa-phone fa-1x"></i>
                         </div>
                         <p class="ms-2"> 0110502220 </p>
                     </div>
-                    <div class="box d-flex">
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="box ">
                         <div>
                             <i class="fa-regular fa-envelope fa-1x"></i>
                         </div>
                         <p class="ms-2"> info@ameeraapp.com</p>
                     </div>
-                    <div class="box d-flex">
+                </div>
+                <div class="col-lg-4">
+                    <div class="box ">
                         <div>
                             <i class="fa-solid fa-globe fa-1x"></i>
                         </div>
@@ -235,15 +232,25 @@
     </div>
 
 
+
     <!-- End Contact -->
-    <hr>
 
-
-    <div class="into d-flex justify-content-end align-items-center flex-column  py-5">
-        <h3 class="mt-2">Download APPs</h3>
-        <a class=" btn btn-dark  " href=""> <i class="fa-brands fa-google-play fa-1x px-2  "> </i>Google Play</a>
-        <a class=" btn  btn-dark mt-3" href=""> <i class="fa-brands fa-apple fa-1x px-2"></i>App Store</a>
+    <div class="into py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="into-box text-center">
+                        <h2 class="mb-4">Download APPs</h2>
+                        <a class=" btn btn-dark  " href=""> <i class="fa-brands fa-google-play fa-1x px-2  "> </i>Google Play</a>
+                        <a class=" btn  btn-dark " href=""> <i class="fa-brands fa-apple fa-1x px-2"></i>App Store</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+
 
 
     <!-- Start Footer -->
