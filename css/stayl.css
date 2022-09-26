@@ -5,6 +5,7 @@
 }
 
 body {
+    font-family: 'Cormorant', serif;
     font-family: 'Lora', serif;
     font-family: 'Roboto', sans-serif;
 }
@@ -21,7 +22,7 @@ body {
     font-size: 40px;
     font-weight: bold;
     position: relative;
-    color: var(--one-color);
+    color: var(--sactino-color);
 }
 
 .header-main p {
@@ -153,7 +154,7 @@ body {
 }
 
 .services .card .card-body h3 {
-    color: var(--one-color);
+    color: var(--sactino-color);
 }
 
 .services .card .card-body .btn {
@@ -162,6 +163,16 @@ body {
 
 
 /* Start Services */
+
+
+/*  */
+
+.into .into-box h2 {
+    color: var(--sactino-color);
+}
+
+
+/* */
 
 
 /* Start Contact  */
