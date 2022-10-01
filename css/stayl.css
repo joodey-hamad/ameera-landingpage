@@ -29,6 +29,11 @@ body {
     width: 600px;
 }
 
+.btn-one button {
+    background-color: var(--sactino-color);
+    color: white;
+}
+
 
 /*
 .header-main h3::before {
@@ -174,6 +179,11 @@ body {
 
 /* */
 
+svg:not(:host).svg-inline--fa,
+svg:not(:root).svg-inline--fa {
+    color: var(--sactino-color);
+}
+
 
 /* Start Contact  */
 
@@ -186,10 +196,11 @@ body {
 }
 
 .footer {
-    background-color: rgba(20, 19, 19, 0.568);
+    background-color: black;
+    color: var(--sactino-color);
 }
 
-.footer ul li svg {
+.footer ul li.svg {
     transition: 1s;
 }
 
